@@ -1,0 +1,27 @@
+.text-with-cta-container {
+    text-align: center;
+    padding: 100px 10px;
+
+    .title {
+        font-size: xx-large;
+        font-weight: bold;
+        color: gold;
+    }
+
+    .body {
+        font-size: 25px;
+        color: goldenrod;
+        padding: 70px 0;
+        word-spacing: 6px;
+        line-height: 38px;
+        text-align: justify;
+
+        ul {
+            padding: 23px 100px;
+        }
+
+        @media (min-width: 800px) {
+            padding: 70px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.header-component {
+    height: 7rem;
+    background-color: #433535;
+    margin-bottom: 0;
+
+    a.logo {
+        margin: auto;
+        float: none;
+        width: 200px;
+        display: block;
+
+        img {
+            margin-top: 0.5rem;
+            display: inline;
+            width: 3rem
+        }
+
+        h3 {
+            display: inline;
+            vertical-align: middle;
+            padding-left: 7px;
+            color: #e6c92c;
+        }
+
+        @media (min-width: 768px) {
+            float: left;
+            margin-top: 1.5rem;
+        }
+    }
+
+
+}
+
+div.header-navbar {
+    ul.header-nav {
+        margin-top: 1rem;
+
+        li {
+            a {
+                color: gold;
+            }
+
+            &.active {
+                a {
+                    color: goldenrod;
+                }
+            }
+        }
+
+    }
+}
