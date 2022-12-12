@@ -6,7 +6,7 @@ export default function Header() {
             <div className={'container'}>
                 <div className={'navbar-header'}>
 
-                    <a className={`navbar-brand ${styles.logo}`} href="index.html"><img src="img/logo.jpeg" alt="logo" /><h3>VRIKSHAM</h3></a>
+                    <a className={`navbar-brand ${styles.logo}`} href="index.html"><img src="img/logo.jpeg" alt="logo" /><h3>VRIKSHAM Herbal</h3></a>
                 </div>
                 <div className={`navbar-collapse collapse ${styles["header-navbar"]}`}>
                     <ul className={`nav navbar-nav ${styles["header-nav"]}`}>

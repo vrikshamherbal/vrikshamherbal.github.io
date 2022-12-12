@@ -18,8 +18,12 @@ body {
 
   .carousel .slide {
     min-width: 100%;
-    height: 800px;
-    max-height: 90vh;
+    height: auto;
+
+    @media (min-width:800px) {
+      max-height: 90vh;
+    }
+
 
     img {
       object-fit: cover;

@@ -17,11 +17,16 @@
         text-align: justify;
 
         ul {
-            padding: 23px 100px;
+            padding: 23px 50px;
         }
 
         @media (min-width: 800px) {
-            padding: 70px;
+            padding: 50px;
+
+            ul {
+                padding: 23px 70px;
+            }
+
         }
     }
 }
